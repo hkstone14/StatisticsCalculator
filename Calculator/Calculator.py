@@ -1,5 +1,6 @@
 from Calculator.addition import addition
 from Calculator.subtraction import subtraction
+from Calculator.sqaureroot import squareroot
 
 
 class Calculator:
@@ -18,4 +19,11 @@ class Calculator:
         a = int(a)
         b = int(b)
         self.result = subtraction(a, b)
+        return self.result
+
+    def squareroot(self, a):
+        a = float(a)
+        temp = 0
+        temp = squareroot(a)
+        self.result = float('%.10g' % temp)
         return self.result
