@@ -1,5 +1,5 @@
-from addition import addition
-from subtraction import subtraction
+from Calculator.addition import addition
+from Calculator.subtraction import subtraction
 
 
 class Calculator:
