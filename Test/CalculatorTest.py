@@ -1,6 +1,6 @@
 import unittest
 
-from Calculator.Calculator import Calculator
+from Calculator import Calculator
 from CSVReader.CSVReader import CsvReader
 
 
@@ -19,6 +19,13 @@ class MyTestCase(unittest.TestCase):
         for row in test_data_add:
             result = int(row['Result'])
             self.assertEqual(self.calculator.add(row['Value 1'], row['Value 2']), result)
+            self.assertEqual(self.calculator.result, result)
+
+    def test_sub_method_calculator(self):
+        test_data_sub = CsvReader("C:/Users/sahil/PycharmProjects/StatisticsCalculator/Data/subtraction.csv").data
+        for row in test_data_sub:
+            result = int(row['Result'])
+            self.assertEqual(self.calculator.sub(row['Value 1'], row['Value 2']), result)
             self.assertEqual(self.calculator.result, result)
 
 
