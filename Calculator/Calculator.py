@@ -8,5 +8,7 @@ class Calculator:
         pass
 
     def add(self, a, b):
+        a = int(a)
+        b = int(b)
         self.result = addition(a, b)
         return self.result
