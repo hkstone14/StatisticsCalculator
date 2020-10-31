@@ -28,6 +28,13 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.sub(row['Value 1'], row['Value 2']), result)
             self.assertEqual(self.calculator.result, result)
 
+    def test_squareRoot_method_calculator(self):
+        test_data_sqrt = CsvReader("./Data/sqroot.csv").data
+        for row in test_data_sqrt:
+            result = float(row['Result'])
+            self.assertEqual(self.calculator.squareroot(row['Value 1']), result)
+            self.assertEqual(self.calculator.result, result)
+
 
 if __name__ == '__main__':
     unittest.main()
