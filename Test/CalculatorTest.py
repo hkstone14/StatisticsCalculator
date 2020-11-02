@@ -29,11 +29,18 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, result)
 
     def test_squareRoot_method_calculator(self):
-        test_data_sqrt = CsvReader("./Data/sqroot.csv").data
+        test_data_sqrt = CsvReader("./Data/squareRoot.csv").data
         for row in test_data_sqrt:
             result = float(row['Result'])
             self.assertEqual(self.calculator.squareroot(row['Value 1']), result)
             self.assertEqual(self.calculator.result, result)
+
+    def test_div_method_calculator(self):
+        test_data_div = CsvReader("./Data/squareRoot.csv").data
+        for row in test_data_div:
+            result = float(row['Result'])
+            self.assertEqual(self.calculator.div(row['Value 1'], row['Value 2']), float(row['Result']))
+            self.assertEqual(self.calculator.result, float(row['Result']))
 
 
 if __name__ == '__main__':

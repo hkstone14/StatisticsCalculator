@@ -1,7 +1,7 @@
 from Calculator.addition import addition
 from Calculator.subtraction import subtraction
 from Calculator.sqaureroot import squareroot
-
+from Calculator.division import division
 
 class Calculator:
     result = 0
@@ -26,4 +26,10 @@ class Calculator:
         temp = 0
         temp = squareroot(a)
         self.result = float('%.10g' % temp)
+        return self.result
+
+    def div(self, a, b):
+        a = float(a)
+        b = float(b)
+        self.result = division(a, b)
         return self.result
