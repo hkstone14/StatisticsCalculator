@@ -1,7 +1,9 @@
-from Calculator.addition import addition
-from Calculator.subtraction import subtraction
-from Calculator.sqaureroot import squareroot
-from Calculator.division import division
+from addition import addition
+from subtraction import subtraction
+from sqaureroot import squareroot
+from division import division
+from multiplication import multiplication
+
 
 class Calculator:
     result = 0
@@ -32,4 +34,10 @@ class Calculator:
         a = float(a)
         b = float(b)
         self.result = division(a, b)
+        return self.result
+
+    def mul(self, a, b):
+        a = int(a)
+        b = int(b)
+        self.result = multiplication(a, b)
         return self.result
