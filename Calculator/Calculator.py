@@ -1,8 +1,8 @@
-from addition import addition
-from subtraction import subtraction
-from sqaureroot import squareroot
-from division import division
-from multiplication import multiplication
+from Calculator.addition import addition
+from Calculator.subtraction import subtraction
+from Calculator.sqaureroot import squareroot
+from Calculator.division import division
+from Calculator.multiplication import multiplication
 
 
 class Calculator:
