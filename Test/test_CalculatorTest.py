@@ -35,6 +35,20 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.squareroot(row['Value 1']), result)
             self.assertEqual(self.calculator.result, result)
 
+    def test_div_method_calculator(self):
+        test_data_div = CsvReader("./Data/division.csv").data
+        for row in test_data_div:
+            result = float(row['Result'])
+            self.assertEqual(self.calculator.div(row['Value 1'], row['Value 2']), float(row['Result']))
+            self.assertEqual(self.calculator.result, float(row['Result']))
+
+    def test_mul_method_calculator(self):
+        test_data_mul = CsvReader("./Data/multiplication.csv").data
+        for row in test_data_mul:
+            result = int(row['Result'])
+            self.assertEqual(self.calculator.mul(row['Value 1'], row['Value 2']), int(row['Result']))
+            self.assertEqual(self.calculator.result, int(row['Result']))
+
 
 if __name__ == '__main__':
     unittest.main()
