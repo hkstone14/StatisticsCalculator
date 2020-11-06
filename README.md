@@ -6,4 +6,4 @@
 
 ## Changelog
 
-[./Test/Data/chagelog.csv]()
+[log](./Test/Data/changelog.csv)
