@@ -6,7 +6,7 @@ from CSVReader.CSVReader import CsvReader
 
 
 class MyTestCase(unittest.TestCase):
-    test_result = CsvReader("./Data/result.csv").data
+    test_result = CsvReader("Test/Data/result.csv").data
 
     def setUp(self) -> None:
         self.statistics = Statistics()
@@ -20,6 +20,14 @@ class MyTestCase(unittest.TestCase):
         for row in self.test_result:
             result = float(row["mean"])
         self.assertEqual(self.statistics.stat_mean(mean_data), result)
+        self.assertEqual(self.statistics.result, result)
+
+    def test_variance(self):
+        sample_data = CsvReader("Test/Data/variance.csv").data
+        variance_data = [float(row['Value']) for row in sample_data]
+        for row in self.test_result:
+            result = float(row["variance"])
+        self.assertEqual(self.statistics.stat_variance(variance_data), result)
         self.assertEqual(self.statistics.result, result)
 
 
