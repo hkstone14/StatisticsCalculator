@@ -31,7 +31,7 @@ If we take the same example like mean then,
 sample variance = (65-74)2 + (37-74)2 + (45-74)2 + (93-74)2 + (130-74)2 / 4  
                 = 81 + 1369 + 841 + 361 + 56 / 4    
                 = 2704 / 4
-                = 677
+                = 677 
                 
 # Standard Deviation
 Standard Deviation = s = SQRT(sample variance)
