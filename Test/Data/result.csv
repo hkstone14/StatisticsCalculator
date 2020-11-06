@@ -1,2 +1,2 @@
-mean,variance,std-dev
-49.8,3426.214285714,58.53387
+mean,variance,std-dev,CI-bottom,CI-top
+49.8,3426.214285714,58.53387,20.17777,79.42223
