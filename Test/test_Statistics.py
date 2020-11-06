@@ -38,6 +38,15 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.stat_standard_deviation(std_dev_data), result)
         self.assertEqual(self.statistics.result, result)
 
+    def test_confidence_interval(self):
+        sample_data = CsvReader("Test/Data/confidence_Interval.csv").data
+        con_int = [float(row['Value']) for row in sample_data]
+        for row in self.test_result:
+            CI_bottom_result = float(row["CI-bottom"])
+            CI_top_result = float(row["CI-top"])
+        self.assertEqual(self.statistics.stat_confidence_interval_top(con_int), CI_top_result)
+        self.assertEqual(self.statistics.stat_confidence_interval_bottom(con_int), CI_bottom_result)
+
 
 if __name__ == '__main__':
     unittest.main()
