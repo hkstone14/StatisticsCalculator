@@ -1,0 +1,46 @@
+1900c0f,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #17 from hkstone14/Calculator
+37d6224,harikrushna,hp52@njit.edu,Feature: Confidence interval module added with all tests passed locally
+016e24f,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #16 from hkstone14/Calculator
+8fbab83,harikrushna,hp52@njit.edu,Feature: Standard deviation module added with all tests passed locally
+442eefe,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #15 from hkstone14/Calculator
+f53ca49,harikrushna,hp52@njit.edu,Feature: Variance module added with all tests passed locally
+8ffa45a,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #14 from hkstone14/Calculator
+71cc57a,harikrushna,hp52@njit.edu,Feature: Mean module added with all test passed locally
+0fe1544,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #13 from hkstone14/Calculator
+c832476,harikrushna,hp52@njit.edu,Bug: minor change
+64356a7,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #12 from hkstone14/Calculator
+5a5536c,harikrushna,hp52@njit.edu,Bug: minor change
+8aba06d,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #11 from hkstone14/Calculator
+3bbc05e,harikrushna,hp52@njit.edu,Bug: filepath fixed
+fcd6dcc,harikrushna,hp52@njit.edu,Bug: Minor changes
+1e89b64,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #10 from hkstone14/Calculator
+94e99e7,harikrushna,hp52@njit.edu,Task: Variance and Standard deviation theory added
+97ed29c,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #9 from hkstone14/Calculator
+2973390,harikrushna,hp52@njit.edu,Task: Mean theory added
+58593c9,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #8 from hkstone14/Calculator
+1c80aa7,harikrushna,hp52@njit.edu,Feature: Square function added
+175ac73,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #7 from hkstone14/Calculator
+be5e961,harikrushna,hp52@njit.edu,Bug: import fixed
+7aa85e9,harikrushna,hp52@njit.edu,Merge remote-tracking branch 'origin/Calculator' into Calculator
+5dc48b7,harikrushna,hp52@njit.edu,Bug: test file name changed
+fa5a74a,sap33,sap33@njit.edu,Feature: multiplication definition added and some other changes.
+f58b6ed,sap33,sap33@njit.edu,Feature: division definition added
+274fe38,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #4 from hkstone14/Calculator
+1b8b812,harikrushna,hp52@njit.edu,Feature: SQRT module added
+b282281,harikrushna,hp52@njit.edu,Task: references folder added
+6358db2,harikrushna,hp52@njit.edu,Task: fileutilities module added
+72d151e,sap33,sap33@njit.edu,Feature: subtraction definition added
+cd37174,harikrushna,hp52@njit.edu,Task: yml file fixed
+50cd25c,harikrushna,hp52@njit.edu,Task: yml file fixed
+ed0bee2,harikrushna,hp52@njit.edu,Task: yml file fixed
+e8d9a69,harikrushna,hp52@njit.edu,Task: yml file updated with "main" instead "master"
+7fd7272,harikrushna,hp52@njit.edu,Task: yml file updated with "main" instead "master"
+7efc8d2,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #3 from hkstone14/Calculator
+fb45774,harikrushna,hp52@njit.edu,Task: addition module fixed
+35078d3,harikrushna,hp52@njit.edu,Task: addition module added in main Calculator file
+f255d5e,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #2 from hkstone14/Calculator
+5f4409e,harikrushna,hp52@njit.edu,Task: travis yml file added
+e9f27cc,hkstone14,70822194+hkstone14@users.noreply.github.com,Merge pull request #1 from hkstone14/Calculator
+5cbee66,harikrushna,hp52@njit.edu,Feature: addition defined
+8ed788a,harikrushna,hp52@njit.edu,Task: initial commit
+f42fb9b,hkstone14,70822194+hkstone14@users.noreply.github.com,Initial commit
