@@ -1,6 +1,7 @@
 from Statistics.mean import mean
 from Calculator.Calculator import Calculator
 from CSVReader.CSVReader import CsvReader
+from Statistics.variance import variance
 
 
 class Statistics(Calculator):
@@ -11,4 +12,8 @@ class Statistics(Calculator):
 
     def stat_mean(self, data):
         self.result = mean(data)
+        return self.result
+
+    def stat_variance(self, data):
+        self.result = variance(data)
         return self.result

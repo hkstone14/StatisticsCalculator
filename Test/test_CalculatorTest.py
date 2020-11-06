@@ -52,7 +52,7 @@ class MyTestCase(unittest.TestCase):
     def test_square_method_calculator(self):
         test_data_sqr = CsvReader("Test/Data/square.csv").data
         for row in test_data_sqr:
-            result = int(row['Result'])
+            result = float(row['Result'])
             self.assertEqual(self.calculator.square(row['Value 1']), result)
             self.assertEqual(self.calculator.result, result)
 

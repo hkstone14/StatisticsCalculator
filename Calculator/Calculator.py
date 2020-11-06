@@ -44,6 +44,5 @@ class Calculator:
         return self.result
 
     def square(self, a):
-        a = int(a)
         self.result = square(a)
         return self.result
