@@ -30,6 +30,14 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.stat_variance(variance_data), result)
         self.assertEqual(self.statistics.result, result)
 
+    def test_standard_deviation(self):
+        sample_data = CsvReader("Test/Data/std-dev.csv").data
+        std_dev_data = [float(row['Value']) for row in sample_data]
+        for row in self.test_result:
+            result = float(row["std-dev"])
+        self.assertEqual(self.statistics.stat_standard_deviation(std_dev_data), result)
+        self.assertEqual(self.statistics.result, result)
+
 
 if __name__ == '__main__':
     unittest.main()
