@@ -7,9 +7,9 @@ from Statistics.confidence_interval_bottom import confidence_interval_bottom
 from Statistics.confidence_interval_top import confidence_interval_top
 from Statistics.z_score import z_score
 from Statistics.errorOfMargin import errorOfMargin
-from Statistics.median import median1
 from Statistics.mode import mode1
-
+from Statistics.median import median1
+from Statistics.simpleRandomSampling import simpleRandomSampling
 
 class Statistics(Calculator):
     data = []
@@ -45,10 +45,14 @@ class Statistics(Calculator):
         self.result=errorOfMargin(data)
         return self.result
 
-    def stat_mode(self,data):
+    def stat_mod(self,data):
         self.result=mode1(data)
         return self.result
 
-    def stat_median(self,data):
+    def stat_medin(self,data):
+        self.result=median1(data)
+        return self.result
+
+    def stat_Simplerandomsampling(self,data):
         self.result=median1(data)
         return self.result

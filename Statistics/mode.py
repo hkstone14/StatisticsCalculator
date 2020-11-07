@@ -1,6 +1,5 @@
 from collections import Counter
 
-
 def mode1(data1):
     try:
         num_values = len(data1)
