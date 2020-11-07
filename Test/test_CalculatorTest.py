@@ -15,6 +15,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.result, 0)
 
     def test_add_method_calculator(self):
+        self.assertEqual(self.calculator.add(2, 2), 4)
+        self.assertEqual(self.calculator.result, 4)
         test_data_add = CsvReader("Test/Data/addition.csv").data
         for row in test_data_add:
             result = int(row['Result'])
@@ -22,6 +24,8 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, result)
 
     def test_sub_method_calculator(self):
+        self.assertEqual(self.calculator.sub(2, 2), 0)
+        self.assertEqual(self.calculator.result, 0)
         test_data_sub = CsvReader("Test/Data/subtraction.csv").data
         for row in test_data_sub:
             result = int(row['Result'])
@@ -29,6 +33,8 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, result)
 
     def test_squareRoot_method_calculator(self):
+        self.assertEqual(self.calculator.squareroot(4), 2)
+        self.assertEqual(self.calculator.result, 2)
         test_data_sqrt = CsvReader("Test/Data/sqroot.csv").data
         for row in test_data_sqrt:
             result = float(row['Result'])
@@ -36,6 +42,8 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, result)
 
     def test_div_method_calculator(self):
+        self.assertEqual(self.calculator.div(2, 2), 1)
+        self.assertEqual(self.calculator.result, 1)
         test_data_div = CsvReader("Test/Data/division.csv").data
         for row in test_data_div:
             result = float(row['Result'])
@@ -43,6 +51,8 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, float(row['Result']))
 
     def test_mul_method_calculator(self):
+        self.assertEqual(self.calculator.mul(2, 2), 4)
+        self.assertEqual(self.calculator.result, 4)
         test_data_mul = CsvReader("Test/Data/multiplication.csv").data
         for row in test_data_mul:
             result = int(row['Result'])
@@ -50,6 +60,8 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, int(row['Result']))
 
     def test_square_method_calculator(self):
+        self.assertEqual(self.calculator.square(2), 4)
+        self.assertEqual(self.calculator.result, 4)
         test_data_sqr = CsvReader("Test/Data/square.csv").data
         for row in test_data_sqr:
             result = float(row['Result'])
