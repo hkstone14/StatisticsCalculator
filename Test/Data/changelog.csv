@@ -1,46 +1,46 @@
-GitHub committed 1900c0f on Fri Nov 6 14:59:37 2020 -0500
-harikrushna committed 37d6224 on Fri Nov 6 14:52:27 2020 -0500
-GitHub committed 016e24f on Fri Nov 6 13:57:19 2020 -0500
-harikrushna committed 8fbab83 on Fri Nov 6 13:52:45 2020 -0500
-GitHub committed 442eefe on Fri Nov 6 13:51:19 2020 -0500
-harikrushna committed f53ca49 on Fri Nov 6 13:32:33 2020 -0500
-GitHub committed 8ffa45a on Fri Nov 6 12:36:19 2020 -0500
-harikrushna committed 71cc57a on Fri Nov 6 12:04:53 2020 -0500
-GitHub committed 0fe1544 on Thu Nov 5 23:35:46 2020 -0500
-harikrushna committed c832476 on Thu Nov 5 23:25:26 2020 -0500
-GitHub committed 64356a7 on Thu Nov 5 23:24:03 2020 -0500
-harikrushna committed 5a5536c on Thu Nov 5 23:00:48 2020 -0500
-GitHub committed 8aba06d on Thu Nov 5 22:47:51 2020 -0500
-harikrushna committed 3bbc05e on Thu Nov 5 22:47:31 2020 -0500
-harikrushna committed fcd6dcc on Thu Nov 5 22:34:39 2020 -0500
-GitHub committed 1e89b64 on Thu Nov 5 22:08:40 2020 -0500
-harikrushna committed 94e99e7 on Thu Nov 5 22:08:02 2020 -0500
-GitHub committed 97ed29c on Thu Nov 5 18:52:23 2020 -0500
-harikrushna committed 2973390 on Thu Nov 5 18:51:36 2020 -0500
-GitHub committed 58593c9 on Thu Nov 5 18:16:30 2020 -0500
-harikrushna committed 1c80aa7 on Thu Nov 5 18:15:40 2020 -0500
-GitHub committed 175ac73 on Thu Nov 5 18:08:40 2020 -0500
-harikrushna committed be5e961 on Thu Nov 5 18:06:43 2020 -0500
-harikrushna committed 7aa85e9 on Thu Nov 5 17:41:55 2020 -0500
-harikrushna committed 5dc48b7 on Thu Nov 5 17:41:29 2020 -0500
-sap33 committed fa5a74a on Mon Nov 2 19:50:36 2020 -0500
-sap33 committed f58b6ed on Mon Nov 2 18:59:17 2020 -0500
-GitHub committed 274fe38 on Sat Oct 31 18:39:49 2020 -0400
-harikrushna committed 1b8b812 on Sat Oct 31 18:38:29 2020 -0400
-harikrushna committed b282281 on Sat Oct 31 18:30:29 2020 -0400
-harikrushna committed 6358db2 on Sat Oct 31 18:03:17 2020 -0400
-sap33 committed 72d151e on Sat Oct 31 17:28:02 2020 -0400
-harikrushna committed cd37174 on Sat Oct 31 17:01:17 2020 -0400
-harikrushna committed 50cd25c on Sat Oct 31 16:57:50 2020 -0400
-harikrushna committed ed0bee2 on Sat Oct 31 16:53:15 2020 -0400
-harikrushna committed e8d9a69 on Sat Oct 31 16:45:25 2020 -0400
-harikrushna committed 7fd7272 on Sat Oct 31 16:41:18 2020 -0400
-GitHub committed 7efc8d2 on Sat Oct 31 16:04:05 2020 -0400
-harikrushna committed fb45774 on Sat Oct 31 16:03:26 2020 -0400
-harikrushna committed 35078d3 on Sat Oct 31 15:39:22 2020 -0400
-GitHub committed f255d5e on Sat Oct 31 15:35:26 2020 -0400
-harikrushna committed 5f4409e on Sat Oct 31 15:34:24 2020 -0400
-GitHub committed e9f27cc on Sat Oct 31 15:26:04 2020 -0400
-harikrushna committed 5cbee66 on Sat Oct 31 15:24:42 2020 -0400
-harikrushna committed 8ed788a on Sat Oct 31 15:10:43 2020 -0400
-GitHub committed f42fb9b on Sat Oct 31 14:59:54 2020 -0400
+1900c0f GitHub           2020-11-06T14:59:37-05:00 ::: Merge pull request #17 from hkstone14/Calculator
+37d6224 harikrushna      2020-11-06T14:52:27-05:00 ::: Feature: Confidence interval module added with all tests passed locally
+016e24f GitHub           2020-11-06T13:57:19-05:00 ::: Merge pull request #16 from hkstone14/Calculator
+8fbab83 harikrushna      2020-11-06T13:52:45-05:00 ::: Feature: Standard deviation module added with all tests passed locally
+442eefe GitHub           2020-11-06T13:51:19-05:00 ::: Merge pull request #15 from hkstone14/Calculator
+f53ca49 harikrushna      2020-11-06T13:32:33-05:00 ::: Feature: Variance module added with all tests passed locally
+8ffa45a GitHub           2020-11-06T12:36:19-05:00 ::: Merge pull request #14 from hkstone14/Calculator
+71cc57a harikrushna      2020-11-06T12:04:53-05:00 ::: Feature: Mean module added with all test passed locally
+0fe1544 GitHub           2020-11-05T23:35:46-05:00 ::: Merge pull request #13 from hkstone14/Calculator
+c832476 harikrushna      2020-11-05T23:25:26-05:00 ::: Bug: minor change
+64356a7 GitHub           2020-11-05T23:24:03-05:00 ::: Merge pull request #12 from hkstone14/Calculator
+5a5536c harikrushna      2020-11-05T23:00:48-05:00 ::: Bug: minor change
+8aba06d GitHub           2020-11-05T22:47:51-05:00 ::: Merge pull request #11 from hkstone14/Calculator
+3bbc05e harikrushna      2020-11-05T22:47:31-05:00 ::: Bug: filepath fixed
+fcd6dcc harikrushna      2020-11-05T22:34:39-05:00 ::: Bug: Minor changes
+1e89b64 GitHub           2020-11-05T22:08:40-05:00 ::: Merge pull request #10 from hkstone14/Calculator
+94e99e7 harikrushna      2020-11-05T22:08:02-05:00 ::: Task: Variance and Standard deviation theory added
+97ed29c GitHub           2020-11-05T18:52:23-05:00 ::: Merge pull request #9 from hkstone14/Calculator
+2973390 harikrushna      2020-11-05T18:51:36-05:00 ::: Task: Mean theory added
+58593c9 GitHub           2020-11-05T18:16:30-05:00 ::: Merge pull request #8 from hkstone14/Calculator
+1c80aa7 harikrushna      2020-11-05T18:15:40-05:00 ::: Feature: Square function added
+175ac73 GitHub           2020-11-05T18:08:40-05:00 ::: Merge pull request #7 from hkstone14/Calculator
+be5e961 harikrushna      2020-11-05T18:06:43-05:00 ::: Bug: import fixed
+7aa85e9 harikrushna      2020-11-05T17:41:55-05:00 ::: Merge remote-tracking branch 'origin/Calculator' into Calculator
+5dc48b7 harikrushna      2020-11-05T17:41:29-05:00 ::: Bug: test file name changed
+fa5a74a sap33            2020-11-02T19:50:36-05:00 ::: Feature: multiplication definition added and some other changes.
+f58b6ed sap33            2020-11-02T18:59:17-05:00 ::: Feature: division definition added
+274fe38 GitHub           2020-10-31T18:39:49-04:00 ::: Merge pull request #4 from hkstone14/Calculator
+1b8b812 harikrushna      2020-10-31T18:38:29-04:00 ::: Feature: SQRT module added
+b282281 harikrushna      2020-10-31T18:30:29-04:00 ::: Task: references folder added
+6358db2 harikrushna      2020-10-31T18:03:17-04:00 ::: Task: fileutilities module added
+72d151e sap33            2020-10-31T17:28:02-04:00 ::: Feature: subtraction definition added
+cd37174 harikrushna      2020-10-31T17:01:17-04:00 ::: Task: yml file fixed
+50cd25c harikrushna      2020-10-31T16:57:50-04:00 ::: Task: yml file fixed
+ed0bee2 harikrushna      2020-10-31T16:53:15-04:00 ::: Task: yml file fixed
+e8d9a69 harikrushna      2020-10-31T16:45:25-04:00 ::: Task: yml file updated with "main" instead "master"
+7fd7272 harikrushna      2020-10-31T16:41:18-04:00 ::: Task: yml file updated with "main" instead "master"
+7efc8d2 GitHub           2020-10-31T16:04:05-04:00 ::: Merge pull request #3 from hkstone14/Calculator
+fb45774 harikrushna      2020-10-31T16:03:26-04:00 ::: Task: addition module fixed
+35078d3 harikrushna      2020-10-31T15:39:22-04:00 ::: Task: addition module added in main Calculator file
+f255d5e GitHub           2020-10-31T15:35:26-04:00 ::: Merge pull request #2 from hkstone14/Calculator
+5f4409e harikrushna      2020-10-31T15:34:24-04:00 ::: Task: travis yml file added
+e9f27cc GitHub           2020-10-31T15:26:04-04:00 ::: Merge pull request #1 from hkstone14/Calculator
+5cbee66 harikrushna      2020-10-31T15:24:42-04:00 ::: Feature: addition defined
+8ed788a harikrushna      2020-10-31T15:10:43-04:00 ::: Task: initial commit
+f42fb9b GitHub           2020-10-31T14:59:54-04:00 ::: Initial commit
