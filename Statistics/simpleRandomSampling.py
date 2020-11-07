@@ -1,5 +1,6 @@
 import random
 
+
 def simpleRandomSampling(data):
     try:
         sampled_list = random.sample(data, 15)

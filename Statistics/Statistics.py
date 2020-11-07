@@ -10,6 +10,7 @@ from Statistics.errorOfMargin import errorOfMargin
 from Statistics.mode import mode1
 from Statistics.median import median1
 from Statistics.simpleRandomSampling import simpleRandomSampling
+from Statistics.Cochrans import cochran
 
 class Statistics(Calculator):
     data = []
@@ -54,5 +55,9 @@ class Statistics(Calculator):
         return self.result
 
     def stat_Simplerandomsampling(self,data):
-        self.result=median1(data)
+        self.result = simpleRandomSampling(data)
+        return self.result
+
+    def stat_cochrans(self, data):
+        self.result = cochran(data)
         return self.result
