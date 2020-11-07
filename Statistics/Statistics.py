@@ -11,6 +11,8 @@ from Statistics.mode import mode1
 from Statistics.median import median1
 from Statistics.simpleRandomSampling import simpleRandomSampling
 from Statistics.Cochrans import cochran
+from Statistics.UnknownPopulationStd_Dev import UnknownPopulationStd_Dev
+
 
 class Statistics(Calculator):
     data = []
@@ -60,4 +62,8 @@ class Statistics(Calculator):
 
     def stat_cochrans(self, data):
         self.result = cochran(data)
+        return self.result
+
+    def stat_unknown_population_std_dev(self, data):
+        self.result = UnknownPopulationStd_Dev(data)
         return self.result
