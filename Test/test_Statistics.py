@@ -1,12 +1,12 @@
 import unittest
 from pprint import pprint
 
-from Statistics import Statistics
+from Statistics.Statistics import Statistics
 from CSVReader.CSVReader import CsvReader
 
 
 class MyTestCase(unittest.TestCase):
-    test_result = CsvReader("./Data/result.csv").data
+    test_result = CsvReader("Test/Data/result.csv").data
 
     def setUp(self) -> None:
         self.statistics = Statistics()
@@ -63,7 +63,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.result, ErrorOfMargin_result)
 
     def test_mode(self):
-        sample_data = CsvReader("./Data/mode.csv").data
+        sample_data = CsvReader("Test/Data/mode.csv").data
         column1 = [float(raw['Value1']) for raw in sample_data]
         for row in self.test_result:
             Mode_result = float(row["mode"])
@@ -74,16 +74,32 @@ class MyTestCase(unittest.TestCase):
         sample_data = CsvReader("Test/Data/median.csv").data
         for row in self.test_result:
             Median_result = float(row["median"])
-        self.assertEqual(self.statistics.stat_medin(sample_data), Median_result)
+        self.assertEqual(self.statistics.stat_median(sample_data), Median_result)
         self.assertEqual(self.statistics.result, Median_result)
 
     def test_simpleRandomSampling(self):
-        sample_data = CsvReader("./Data/SimpleRandomSampling.csv").data
-        column1 = [float(raw['Value1']) for raw in sample_data]
+        sample_data = CsvReader("Test/Data/SimpleRandomSampling.csv").data
+        column1 = [int(raw['Value1']) for raw in sample_data]
         for row in self.test_result:
-            SRS_result = float(row["SRS"])
-        self.assertEqual(self.statistics.stat_mode(column1), SRS_result)
+            SRS_result = int(row["SRS"])
+        self.assertEqual(self.statistics.stat_Simplerandomsampling(column1), SRS_result)
         self.assertEqual(self.statistics.result, SRS_result)
+
+    def test_cochrans(self):
+        sample_data = CsvReader("Test/Data/cochrans.csv").data
+        column1 = [float(raw['Value']) for raw in sample_data]
+        for row in self.test_result:
+            cochran_result = float(row["cochrans"])
+        self.assertEqual(self.statistics.stat_cochrans(column1), cochran_result)
+        self.assertEqual(self.statistics.result, cochran_result)
+
+    def test_unknown_pop_std_dev(self):
+        sample_data = CsvReader("Test/Data/unknow_pop_std_dev.csv").data
+        column1 = [float(raw['Value']) for raw in sample_data]
+        for row in self.test_result:
+            Un_std_dev_result = float(row["Un_std_dev"])
+        self.assertEqual(self.statistics.stat_unknown_population_std_dev(column1), Un_std_dev_result)
+        self.assertEqual(self.statistics.result, Un_std_dev_result)
 
 
 if __name__ == '__main__':

@@ -1,2 +1,2 @@
-mean,variance,std-dev,CI-bottom,CI-top,ErrorOfMargin,mode,median,SRS
-49.8,3426.214285714,58.53387,20.17777,79.42223,25.555,56,27,15
+mean,variance,std-dev,CI-bottom,CI-top,ErrorOfMargin,mode,median,SRS,cochrans,Un_std_dev
+49.8,3426.214285714,58.53387,20.17777,79.42223,25.555,27,27,15,0.1471,0.0
