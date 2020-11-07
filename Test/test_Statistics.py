@@ -55,6 +55,13 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.stat_zscore(sample_z_score), zscore_result)
         self.assertEqual(self.statistics.result, zscore_result)
 
+    def test_errorOfmargin(self):
+        sample_data = CsvReader("Test/Data/errorOfMargin.csv").data
+        for row in self.test_result:
+            ErrorOfMargin_result = float(row["ErrorOfMargin"])
+        self.assertEqual(self.statistics.stat_ErrorofMargin(sample_data), ErrorOfMargin_result)
+        self.assertEqual(self.statistics.result, ErrorOfMargin_result)
+
 
 if __name__ == '__main__':
     unittest.main()

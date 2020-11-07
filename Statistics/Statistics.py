@@ -6,6 +6,7 @@ from standard_deviation import standard_deviation
 from confidence_interval_bottom import confidence_interval_bottom
 from confidence_interval_top import confidence_interval_top
 from z_score import z_score
+from errorOfMargin import errorOfMargin
 
 
 class Statistics(Calculator):
@@ -36,4 +37,8 @@ class Statistics(Calculator):
 
     def stat_zscore(self, data):
         self.result = z_score(data)
+        return self.result
+
+    def stat_ErrorofMargin(self,data):
+        self.result=errorOfMargin(data)
         return self.result
