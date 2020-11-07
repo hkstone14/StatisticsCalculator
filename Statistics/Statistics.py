@@ -8,7 +8,8 @@ from Statistics.confidence_interval_top import confidence_interval_top
 from Statistics.z_score import z_score
 from Statistics.errorOfMargin import errorOfMargin
 from Statistics.mode import mode1
-from Statistics.median import  median1
+from Statistics.median import median1
+from Statistics.simpleRandomSampling import simpleRandomSampling
 
 class Statistics(Calculator):
     data = []
@@ -49,5 +50,9 @@ class Statistics(Calculator):
         return self.result
 
     def stat_medin(self,data):
+        self.result=median1(data)
+        return self.result
+
+    def stat_Simplerandomsampling(self,data):
         self.result=median1(data)
         return self.result
