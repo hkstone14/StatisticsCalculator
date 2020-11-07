@@ -34,4 +34,6 @@ class Statistics(Calculator):
         self.result = confidence_interval_bottom(data)
         return self.result
 
-
+    def stat_zscore(self, data):
+        self.result = z_score(data)
+        return self.result

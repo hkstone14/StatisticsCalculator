@@ -47,7 +47,13 @@ class MyTestCase(unittest.TestCase):
     #     self.assertEqual(self.statistics.stat_confidence_interval_top(con_int), CI_top_result)
     #     self.assertEqual(self.statistics.stat_confidence_interval_bottom(con_int), CI_bottom_result)
 
-
+    def test_zscore(self):
+        sample_data = CsvReader("./Data/zscore.csv").data
+        sample_z_score = [int(row['zscore']) for row in sample_data]
+        zscore_answer = CsvReader("./Data/zscore_answer.csv").data
+        zscore_result = [float(row['result']) for row in zscore_answer]
+        self.assertEqual(self.statistics.stat_zscore(sample_z_score), zscore_result)
+        self.assertEqual(self.statistics.result, zscore_result)
 
 
 if __name__ == '__main__':
