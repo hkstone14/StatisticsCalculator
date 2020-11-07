@@ -10,3 +10,5 @@ def standard_deviation(data):
         print("ERROR: Can't divide by zero")
     except ValueError:
         print("ERROR: Check your input value")
+    except IndexError:
+        print("List is empty")

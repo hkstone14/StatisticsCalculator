@@ -18,3 +18,5 @@ def mode1(data1):
 
     except ValueError:
         print("ERROR: Check your input value")
+    except IndexError:
+        print("List is empty")
