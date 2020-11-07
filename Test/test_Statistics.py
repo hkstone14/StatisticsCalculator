@@ -1,7 +1,7 @@
 import unittest
 from pprint import pprint
 
-from Statistics.Statistics import Statistics
+from Statistics import Statistics
 from CSVReader.CSVReader import CsvReader
 
 
@@ -61,6 +61,20 @@ class MyTestCase(unittest.TestCase):
             ErrorOfMargin_result = float(row["ErrorOfMargin"])
         self.assertEqual(self.statistics.stat_ErrorofMargin(sample_data), ErrorOfMargin_result)
         self.assertEqual(self.statistics.result, ErrorOfMargin_result)
+
+    def test_mode(self):
+        sample_data = CsvReader("Test/Data/mode.csv").data
+        for row in self.test_result:
+            Mode_result = float(row["mode"])
+        self.assertEqual(self.statistics.stat_mod(sample_data), Mode_result)
+        self.assertEqual(self.statistics.result, Mode_result)
+
+    def test_median(self):
+        sample_data = CsvReader("Test/Data/median.csv").data
+        for row in self.test_result:
+            Median_result = float(row["median"])
+        self.assertEqual(self.statistics.stat_medin(sample_data), Median_result)
+        self.assertEqual(self.statistics.result, Median_result)
 
 
 if __name__ == '__main__':
