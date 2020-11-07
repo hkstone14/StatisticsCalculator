@@ -63,10 +63,11 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.result, ErrorOfMargin_result)
 
     def test_mode(self):
-        sample_data = CsvReader("Test/Data/mode.csv").data
+        sample_data = CsvReader("./Data/mode.csv").data
+        column1 = [float(raw['Value1']) for raw in sample_data]
         for row in self.test_result:
             Mode_result = float(row["mode"])
-        self.assertEqual(self.statistics.stat_mod(sample_data), Mode_result)
+        self.assertEqual(self.statistics.stat_mode(column1), Mode_result)
         self.assertEqual(self.statistics.result, Mode_result)
 
     def test_median(self):
