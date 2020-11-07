@@ -1,11 +1,12 @@
-from Statistics.mean import mean
-from Calculator.Calculator import Calculator
+from mean import mean
+from Calculator import Calculator
 from CSVReader.CSVReader import CsvReader
-from Statistics.variance import variance
-from Statistics.standard_deviation import standard_deviation
-from Statistics.confidence_interval_bottom import confidence_interval_bottom
-from Statistics.confidence_interval_top import confidence_interval_top
-from Statistics.z_score import z_score
+from variance import variance
+from standard_deviation import standard_deviation
+from confidence_interval_bottom import confidence_interval_bottom
+from confidence_interval_top import confidence_interval_top
+from z_score import z_score
+from errorOfMargin import errorOfMargin
 
 
 class Statistics(Calculator):
@@ -36,4 +37,8 @@ class Statistics(Calculator):
 
     def stat_zscore(self, data):
         self.result = z_score(data)
+        return self.result
+
+    def stat_ErrorofMargin(self,data):
+        self.result=errorOfMargin(data)
         return self.result

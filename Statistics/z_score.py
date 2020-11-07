@@ -13,3 +13,4 @@ def z_score(data):
         z_list.append(z)
     return z_list
 
+
