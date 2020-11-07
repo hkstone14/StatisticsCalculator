@@ -11,7 +11,7 @@ def errorOfMargin(data):
         temp2= round(division(n,temp1),3)
         temp3 =squareroot(temp2)
         moe= multiplication(z,temp3)
-        return moe
+        return round(multiplication(moe, 100), 3)
     except ZeroDivisionError:
         print("ERROR: Can't divide by zero")
     except ValueError:
