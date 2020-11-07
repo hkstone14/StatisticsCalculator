@@ -94,7 +94,7 @@ class MyTestCase(unittest.TestCase):
     #     self.assertEqual(self.statistics.result, cochran_result)
 
     def test_unknown_pop_std_dev(self):
-        sample_data = CsvReader("./Data/unknow_pop_std_dev.csv").data
+        sample_data = CsvReader("Test/Data/unknow_pop_std_dev.csv").data
         column1 = [float(raw['Value']) for raw in sample_data]
         for row in self.test_result:
             Un_std_dev_result = float(row["Un_std_dev"])
