@@ -33,7 +33,7 @@ This project has two parts:
 12. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
 
 ## References
-[](https://www.geeksforgeeks.org/)
+[GeekforGeeks](https://www.geeksforgeeks.org/)
 
 
 
