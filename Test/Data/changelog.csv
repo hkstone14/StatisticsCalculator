@@ -1,3 +1,76 @@
+a3ab004 GitHub           2020-11-07T18:30:55-05:00 ::: Merge pull request #40 from hkstone14/Calculator
+c1fcfc6 sap33            2020-11-07T18:29:59-05:00 ::: Task : minor changes
+2d83ac0 GitHub           2020-11-07T18:28:16-05:00 ::: Merge pull request #39 from hkstone14/Calculator
+7dfda38 sap33            2020-11-07T18:25:05-05:00 ::: Task : code change
+cd6501c sap33            2020-11-07T18:08:51-05:00 ::: Task : Added description for simple random sampling
+fe5cba5 sap33            2020-11-07T18:00:02-05:00 ::: Task : Added description for margin of error
+d685c92 sap33            2020-11-07T17:43:00-05:00 ::: task : minor changes
+3fc1c5e sap33            2020-11-07T17:41:25-05:00 ::: task : description added for Median
+b740478 sap33            2020-11-07T17:29:49-05:00 ::: task : description added for Mode
+283259c sap33            2020-11-07T17:15:23-05:00 ::: task : description added for Z-score
+8966c72 GitHub           2020-11-07T16:56:06-05:00 ::: Merge pull request #38 from hkstone14/Calculator
+d241be0 harikrushna      2020-11-07T16:54:58-05:00 ::: Task:Dockerfile added
+c4cfc8c GitHub           2020-11-07T16:49:52-05:00 ::: Merge pull request #37 from hkstone14/Calculator
+b3d2288 sap33            2020-11-07T16:48:36-05:00 ::: task : added docker file
+6766861 GitHub           2020-11-07T16:46:06-05:00 ::: Merge pull request #36 from hkstone14/Calculator
+896214e sap33            2020-11-07T16:40:04-05:00 ::: Merge branch 'main' of https://github.com/hkstone14/StatisticsCalculator into Calculator
+b5f12af sap33            2020-11-07T16:39:31-05:00 ::: task : added docker file
+bd89a73 GitHub           2020-11-07T16:33:33-05:00 ::: Merge pull request #35 from hkstone14/Calculator
+f162907 harikrushna      2020-11-07T16:32:14-05:00 ::: Bug: minor changes
+9762e39 GitHub           2020-11-07T15:42:06-05:00 ::: Merge pull request #34 from hkstone14/Calculator
+7a16428 harikrushna      2020-11-07T15:40:52-05:00 ::: Bug: minor changes
+463c350 GitHub           2020-11-07T15:38:23-05:00 ::: Merge pull request #33 from hkstone14/Calculator
+15c268f harikrushna      2020-11-07T15:38:13-05:00 ::: Bug: minor changes
+532fa78 harikrushna      2020-11-07T15:34:30-05:00 ::: Task: Teste passed locally
+018dcfb GitHub           2020-11-07T15:33:29-05:00 ::: Merge pull request #32 from hkstone14/Calculator
+807b71f harikrushna      2020-11-07T15:32:27-05:00 ::: Bug: Filepath fixed
+d614f50 harikrushna      2020-11-07T15:30:43-05:00 ::: Bug: Filepath fixed
+e876ffe harikrushna      2020-11-07T15:29:02-05:00 ::: Feature: unknown population standard deviation added and test pass locally
+d2e7e7a GitHub           2020-11-07T15:00:18-05:00 ::: Merge pull request #31 from hkstone14/Calculator
+7c45d09 harikrushna      2020-11-07T14:59:32-05:00 ::: Bug: minor changes
+1aba3a8 harikrushna      2020-11-07T14:57:45-05:00 ::: Bug: minor changes
+2dc22a4 harikrushna      2020-11-07T14:54:59-05:00 ::: Feature: Cochrans formula added and test passed
+87aec94 harikrushna      2020-11-07T14:25:07-05:00 ::: Merge remote-tracking branch 'origin/Calculator' into Calculator
+72b7c1d harikrushna      2020-11-07T14:24:47-05:00 ::: Task: minor changes
+83751e7 GitHub           2020-11-07T14:17:15-05:00 ::: Merge pull request #30 from hkstone14/Calculator
+1a90a21 sap33            2020-11-07T14:00:20-05:00 ::: Feature : Sample Random simpling method added and all tests run successfully
+6ae35df sap33            2020-11-07T13:28:47-05:00 ::: task : code change in mode
+3488afa harikrushna      2020-11-07T13:03:07-05:00 ::: Merge remote-tracking branch 'origin/Calculator' into Calculator
+cbb8bd2 harikrushna      2020-11-07T13:00:55-05:00 ::: Task: Change log format changed
+d483b82 GitHub           2020-11-07T12:59:16-05:00 ::: Merge pull request #29 from hkstone14/Calculator
+e54ed07 sap33            2020-11-07T12:57:25-05:00 ::: Bug : bug fix in median
+0891a1a harikrushna      2020-11-07T12:12:00-05:00 ::: Merge remote-tracking branch 'origin/Calculator' into Calculator
+26cafc5 harikrushna      2020-11-07T12:10:47-05:00 ::: Task: Change log format changed
+e6a83df GitHub           2020-11-07T12:05:49-05:00 ::: Merge pull request #28 from hkstone14/Calculator
+a14b0c0 sap33            2020-11-07T11:59:34-05:00 ::: Task : Added exception in basic calculator
+fc2e853 sap33            2020-11-07T11:46:29-05:00 ::: Task : Added exception for empty list
+27061a3 sap33            2020-11-07T01:57:43-05:00 ::: Feature : Random generator functions added
+391cd4a sap33            2020-11-06T23:52:28-05:00 ::: Feature : Added Median function and all tests run successfully
+111bde1 sap33            2020-11-06T23:22:06-05:00 ::: Feature : Added Mode function and all tests run successfully
+07d2078 GitHub           2020-11-06T21:52:42-05:00 ::: Merge pull request #27 from hkstone14/Calculator
+f64a5c7 sap33            2020-11-06T21:52:01-05:00 ::: bug : bug fix
+dd6806e harikrushna      2020-11-06T21:40:49-05:00 ::: Merge branch 'main' of github.com:hkstone14/StatisticsCalculator into Calculator
+ac7ca81 harikrushna      2020-11-06T21:40:20-05:00 ::: Merge remote-tracking branch 'origin/Calculator' into Calculator
+c7c8a91 harikrushna      2020-11-06T21:39:56-05:00 ::: Task: Change log format changed
+45d930b GitHub           2020-11-06T21:37:23-05:00 ::: Merge pull request #26 from hkstone14/Calculator
+a7e5b1f sap33            2020-11-06T21:36:46-05:00 ::: Feature : added error of margin function and all tests run successfully
+c9fbc92 GitHub           2020-11-06T20:41:55-05:00 ::: Merge pull request #25 from hkstone14/Calculator
+f36aa11 sap33            2020-11-06T20:41:07-05:00 ::: task : path updated
+ffa7671 GitHub           2020-11-06T20:38:49-05:00 ::: Merge pull request #24 from hkstone14/Calculator
+3df996b sap33            2020-11-06T20:35:46-05:00 ::: Merge branch 'main' of https://github.com/hkstone14/StatisticsCalculator into Calculator
+a1dada4 sap33            2020-11-06T20:34:21-05:00 ::: Feature: z_score definition added and all tests pass locally
+325dda1 GitHub           2020-11-06T18:51:15-05:00 ::: Merge pull request #23 from hkstone14/Calculator
+ce1b6ec harikrushna      2020-11-06T18:50:39-05:00 ::: Task: Change log format changed
+ee9de24 GitHub           2020-11-06T18:38:29-05:00 ::: Merge pull request #22 from hkstone14/Calculator
+e264343 harikrushna      2020-11-06T18:37:46-05:00 ::: Task: Change log format changed
+55b8425 GitHub           2020-11-06T18:27:58-05:00 ::: Merge pull request #21 from hkstone14/Calculator
+27b009d harikrushna      2020-11-06T18:27:02-05:00 ::: Task: Change log format changed
+58e522c GitHub           2020-11-06T18:09:09-05:00 ::: Merge pull request #20 from hkstone14/Calculator
+788998f harikrushna      2020-11-06T18:08:26-05:00 ::: Task: Change log added in README.md file
+15aa76e GitHub           2020-11-06T18:00:49-05:00 ::: Merge pull request #19 from hkstone14/Calculator
+d3c660d harikrushna      2020-11-06T18:00:26-05:00 ::: Task: Change log added in README.md file
+a1a2946 GitHub           2020-11-06T17:58:38-05:00 ::: Merge pull request #18 from hkstone14/Calculator
+d020b38 harikrushna      2020-11-06T17:57:51-05:00 ::: Task: Change log added in README.md file
 1900c0f GitHub           2020-11-06T14:59:37-05:00 ::: Merge pull request #17 from hkstone14/Calculator
 37d6224 harikrushna      2020-11-06T14:52:27-05:00 ::: Feature: Confidence interval module added with all tests passed locally
 016e24f GitHub           2020-11-06T13:57:19-05:00 ::: Merge pull request #16 from hkstone14/Calculator
