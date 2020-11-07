@@ -1,14 +1,14 @@
-from mean import mean
-from Calculator import Calculator
+from Statistics.mean import mean
+from Calculator.Calculator import Calculator
 from CSVReader.CSVReader import CsvReader
-from variance import variance
-from standard_deviation import standard_deviation
-from confidence_interval_bottom import confidence_interval_bottom
-from confidence_interval_top import confidence_interval_top
-from z_score import z_score
-from errorOfMargin import errorOfMargin
-from mode import mode1
-from median import  median1
+from Statistics.variance import variance
+from Statistics.standard_deviation import standard_deviation
+from Statistics.confidence_interval_bottom import confidence_interval_bottom
+from Statistics.confidence_interval_top import confidence_interval_top
+from Statistics.z_score import z_score
+from Statistics.errorOfMargin import errorOfMargin
+from Statistics.mode import mode1
+from Statistics.median import  median1
 
 class Statistics(Calculator):
     data = []
