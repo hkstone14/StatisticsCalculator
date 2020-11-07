@@ -8,6 +8,7 @@ from confidence_interval_top import confidence_interval_top
 from z_score import z_score
 from errorOfMargin import errorOfMargin
 from mode import mode1
+from median import  median1
 
 class Statistics(Calculator):
     data = []
@@ -45,4 +46,8 @@ class Statistics(Calculator):
 
     def stat_mod(self,data):
         self.result=mode1(data)
+        return self.result
+
+    def stat_medin(self,data):
+        self.result=median1(data)
         return self.result

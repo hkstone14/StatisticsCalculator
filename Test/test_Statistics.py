@@ -69,6 +69,13 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.stat_mod(sample_data), Mode_result)
         self.assertEqual(self.statistics.result, Mode_result)
 
+    def test_median(self):
+        sample_data = CsvReader("Test/Data/median.csv").data
+        for row in self.test_result:
+            Median_result = float(row["median"])
+        self.assertEqual(self.statistics.stat_medin(sample_data), Median_result)
+        self.assertEqual(self.statistics.result, Median_result)
+
 
 if __name__ == '__main__':
     unittest.main()
