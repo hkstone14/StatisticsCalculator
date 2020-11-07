@@ -56,14 +56,14 @@ class MyTestCase(unittest.TestCase):
     #     self.assertEqual(self.statistics.result, zscore_result)
     #
     # def test_errorOfmargin(self):
-    #     sample_data = CsvReader("./Data/errorOfMargin.csv").data
+    #     sample_data = CsvReader("Test/Data/errorOfMargin.csv").data
     #     for row in self.test_result:
     #         ErrorOfMargin_result = float(row["ErrorOfMargin"])
     #     self.assertEqual(self.statistics.stat_ErrorofMargin(sample_data), ErrorOfMargin_result)
     #     self.assertEqual(self.statistics.result, ErrorOfMargin_result)
     #
     # def test_mode(self):
-    #     sample_data = CsvReader("./Data/mode.csv").data
+    #     sample_data = CsvReader("Test/Data/mode.csv").data
     #     column1 = [float(raw['Value1']) for raw in sample_data]
     #     for row in self.test_result:
     #         Mode_result = float(row["mode"])
@@ -77,13 +77,13 @@ class MyTestCase(unittest.TestCase):
     #     self.assertEqual(self.statistics.stat_median(sample_data), Median_result)
     #     self.assertEqual(self.statistics.result, Median_result)
 
-    # def test_simpleRandomSampling(self):
-    #     sample_data = CsvReader("./Data/SimpleRandomSampling.csv").data
-    #     column1 = [float(raw['Value1']) for raw in sample_data]
-    #     for row in self.test_result:
-    #         SRS_result = float(row["SRS"])
-    #     self.assertEqual(self.statistics.stat_Simplerandomsampling(column1), SRS_result)
-    #     self.assertEqual(self.statistics.result, SRS_result)
+    def test_simpleRandomSampling(self):
+        sample_data = CsvReader("./Data/SimpleRandomSampling.csv").data
+        column1 = [int(raw['Value1']) for raw in sample_data]
+        for row in self.test_result:
+            SRS_result = int(row["SRS"])
+        self.assertEqual(self.statistics.stat_Simplerandomsampling(column1), SRS_result)
+        self.assertEqual(self.statistics.result, SRS_result)
 
     def test_cochrans(self):
         sample_data = CsvReader("./Data/cochrans.csv").data
