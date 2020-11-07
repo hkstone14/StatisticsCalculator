@@ -6,7 +6,7 @@ from CSVReader.CSVReader import CsvReader
 
 
 class MyTestCase(unittest.TestCase):
-    test_result = CsvReader("./Data/result.csv").data
+    test_result = CsvReader("Test/Data/result.csv").data
 
     def setUp(self) -> None:
         self.statistics = Statistics()
