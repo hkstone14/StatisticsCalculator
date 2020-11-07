@@ -14,8 +14,11 @@ Formally, a median of a population is any value such that at most half of the po
 
 ## Formula
 Median= (n/2)th when n is odd
+
 Median = (n+1/2)th when n is even 
+
 where n is number of element
+
 “th” just means the (n)th number. 
 
 ## Example
