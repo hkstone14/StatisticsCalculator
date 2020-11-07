@@ -45,7 +45,7 @@ class Statistics(Calculator):
         self.result=errorOfMargin(data)
         return self.result
 
-    def stat_mod(self,data):
+    def stat_mode(self,data):
         self.result=mode1(data)
         return self.result
 
