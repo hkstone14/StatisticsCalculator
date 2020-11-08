@@ -32,7 +32,7 @@ This project has two parts:
 11. Cochran’s Sample Size Formula
 12. How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
 
-[Link to description](./Test/Data)
+[Link to description](./References)
 
 ## Random Generator function
 
